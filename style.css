@@ -1,0 +1,91 @@
+body{
+   color: black;
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#heading-one{
+   color: crimson;
+   background-color: rgb(0, 0, 0);
+}
+h2{
+   background-color: rgb(72, 72, 69) ;
+}
+.button{
+   color:#000;
+   background-color: chocolate;
+}
+#textbox{
+   background-color: rgba(237, 246, 243, 0.694);
+}
+h1{
+   background-color: azure;
+   
+}
+.number{
+   background-color: darkgray;
+   font-size: 20px;
+}
+.gmail{
+font-size: 20px;
+background-color: darkgray;
+}
+.precious{
+   font-size: 12px;
+   color:red;
+}
+#precious{
+   color: #b4aeae82;
+}
+.name{
+   font: bolder;
+   color: black;
+}
+.cakes{
+   color: black;
+}
+.meat{
+   color: #000;
+}
+#donuts{
+   color: #000;
+}
+.pastries{
+   background-color: aliceblue;
+}
+.prices{
+   background-color: rgb(0, 0, 0);
+   color: aliceblue;
+}
+.account{
+   color: slategrey;
+   font-size: small;
+}
+.love{
+   font-size: 15px;
+   background-color: azure;
+   border-radius: 12%;
+}
+.home{
+   background-color: azure;
+   border-radius: 12%;
+}
+
+.about{
+   font-style: normal;
+   font-size: medium;
+   font-weight: bolder;
+  
+}
+
+.cash{
+   text-transform:  capitalize;
+}
+
+#link:link{
+   color: aqua;
+   cursor: pointer;
+}
+
+#link:visited{
+   color: red;
+}
