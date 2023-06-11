@@ -4,11 +4,12 @@ body{
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #heading-one{
-   color: crimson;
-   background-color: rgb(0, 0, 0);
+   color: white;
+   background-color: rgb(108, 111, 112);
 }
 h2{
    background-color: rgb(72, 72, 69) ;
+   width: 95%;
 }
 .button{
    color:#000;
@@ -22,12 +23,12 @@ h1{
    
 }
 .number{
-   background-color: darkgray;
+   
    font-size: 20px;
 }
 .gmail{
 font-size: 20px;
-background-color: darkgray;
+
 }
 .precious{
    font-size: 12px;
@@ -53,8 +54,9 @@ background-color: darkgray;
    background-color: aliceblue;
 }
 .prices{
-   background-color: rgb(0, 0, 0);
-   color: aliceblue;
+   background-color: whitesmoke;
+   color: black;
+   margin-left: 2rem;
 }
 .account{
    color: slategrey;
@@ -63,7 +65,8 @@ background-color: darkgray;
 .love{
    font-size: 15px;
    background-color: azure;
-   border-radius: 12%;
+   margin-top: 2rem;
+   text-align: right;
 }
 .home{
    background-color: azure;
@@ -89,3 +92,42 @@ background-color: darkgray;
 #link:visited{
    color: red;
 }
+
+.link{
+   font-size: small;
+   text-align:center ;
+}
+
+.pastries{
+   text-transform: capitalize;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: x-large;
+}
+
+.paragraph{
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: inherit
+}
+
+body{
+   font-size: medium;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.cakes{
+   font-size: smaller;
+}
+
+.contact{
+   background-color: lightseagreen;
+}
+ h2{
+   width: 80%;
+   background-color: white;
+   font-size: medium;
+ }
+
+ .images{
+   justify-content: center;
+   align-content: center;
+ }
