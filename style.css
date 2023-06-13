@@ -13,13 +13,16 @@ h2{
 }
 .button{
    color:#000;
-   background-color: chocolate;
+   background-color: seagreen;
+   cursor: pointer;
 }
 #textbox{
    background-color: rgba(237, 246, 243, 0.694);
 }
 h1{
    background-color: azure;
+   width: 90%;
+   height: 50px;
    
 }
 .number{
@@ -62,17 +65,28 @@ font-size: 20px;
    color: slategrey;
    font-size: small;
 }
+.nav{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+
+}
 .love{
    font-size: 15px;
    background-color: azure;
-   margin-top: 2rem;
-   text-align: right;
+   list-style: none;
+}
+.love li{
+   display: inline-block;
 }
 .home{
    background-color: azure;
    border-radius: 12%;
 }
-
+.home img{
+   width: 40px;
+   aspect-ratio: 1;
+}
 .about{
    font-style: normal;
    font-size: medium;
@@ -120,6 +134,8 @@ body{
 
 .contact{
    background-color: lightseagreen;
+   display: flex;
+   justify-content: space-between;
 }
  h2{
    width: 80%;
@@ -129,5 +145,23 @@ body{
 
  .images{
    justify-content: center;
-   align-content: center;
+   display: flex;
+   list-style: none;
+   display: inline-block;
  }
+
+.cont{
+   display: flex;
+   justify-content: space-between;
+   background-color: #000;
+   width: 90%;
+   max-width: 100%;
+   margin-top: 2rem;
+   padding: 18px;
+}
+.field{
+   font-style: inherit;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+   text-transform: capitalize;
+   width: 70%;
+}

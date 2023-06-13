@@ -8,24 +8,27 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h2 class="pastries"> pastries
-
-      <div  class="love">
-         <a href="index.html">home</a></li>
-         <li><a href="about.html">about </a></li>
-         <a href="contact.html">contact us</a>
-      </div>
-   </h2>
+  
+   <div class="nav">
+      <h2 class="pastries"> pastries</h2>
+          <ul class="love">
+              <li><a href="about.html">about </a></li>
+              <li><a href="index.html"> home</a></li>
+              <li><a href="contact.html">contact</a></li>
+          </ul>
+  </div>
+  </div>
+   
    
    <p class="paragraph">other pastries from your number one cake plug are availabe and they are ready for your orders</p>
    <div class="images">
    <ul>
-   <li><a href="more cakes" class="cakes">cakes of different flavours</a></li>
-   <img src="/image/three layer cake.jpg" alt="images" width="200px">
-   <li><a href="more meatpie pictures" class="meat"> meat pies</a></li>
-   <img src="/image/meat pie.jpg" alt="image" width="200px">
-   <li><a href="more pictures" id="donuts">donuts and many more</a></li>
-   <img src="/image/donuts.jpg" alt="donuts" width="200px">
+       <li><a href="more cakes" class="cakes">cakes of different flavours</a></li>
+       <img src="image/three layer cake.jpg" alt="images" width="40%">
+       <li><a href="more meatpie pictures" class="meat"> meat pies</a></li>
+       <img src="image/meat pie.jpg" alt="image" width="40%">
+       <li><a href="more pictures" id="donuts">donuts and many more</a></li>
+       <img src="image/donuts.jpg" alt="donuts" width="40%" height=" ">
    </ul>
    </div>
    <h3>list of available pastries according to the price</h3>
@@ -68,17 +71,32 @@
 <p>rite bite is known for its fast home delivery system but also they have a pick up station for those interested all for your comfort</p>
 </div>
 <h4>create account</h4>
+<form action="" class="field">
+   <fieldset>
+    <legend>delivery form</legend>
+    <label for="fullname">fullname</label>
+    <input type="text" name="fullname" id="fullname">
+    <label for="email">email</label>
+    <input type="email"  name="email" id="email">
+   
+   <label for="sex">male</label>
+ <input type="radio" name="sex" id="male">
+ <label for="sex">female</label>
+ <input type="radio" name="sex" id="female">
+ <select id="states">
+   
+ <option   value="states">rivers</option>
+ <option  value="states">imo</option>
+ <option  value="states">abia</option>
+ <option  value="states">etc</option>
+ </select>
+ <input type="button" value="submit" class="button">
+   </fieldset>
+ </form>
 
-<form action="" method="">
-   <label for="name">name</label>
-   <input type="text" name="name" id="" placeholder="name" >
-  <div> <label for="name">password</label>
-   <input type="password" placeholder="type password"></div>
-   <label for="name">email</label>
-   <input type="email" name="email"  value="@gmail.com">
    <p><a href="sign in" class="account"   >create account or sign in</a></p>
    <br>
 <textarea name="reviews" id="" cols="30" rows="10" placeholder="please put a review"></textarea>
-<input type="button" value="click me">
+<input type="button" value="click me" class="button">
 </body>
 </html>
